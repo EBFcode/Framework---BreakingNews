@@ -4,3 +4,38 @@
  * Licensed under MIT (https://codeebf.com/breakingnews/blob/main/LICENSE) 
  */
 
+:root {
+    --primary-news-color: #1a237e;
+    --secondary-news-color: #c62828;
+    --text-news-color: #263238;
+}
+
+.btn-news {
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 20px;
+
+    font-weight: 600;
+    background-color: none;
+
+    transition:  0.3s ease 0s;
+    cursor: pointer;
+}
+
+.btn-news-primary {
+    background-color: var(--primary-news-color);
+    border: 0px 0px 2px 0px solid #000;
+    color: #fff;
+}
+
+.btn-news-primary:hover {
+    background-color: var(--primary-news-color);
+    
+    color: var(--primary-news-color);
+}
+
+.btn-news-secondary {
+    background-color: var(--secondary-news-color);
+    border: 2px solid var(--secondary-news-color);
+    color: #fff;
+}
